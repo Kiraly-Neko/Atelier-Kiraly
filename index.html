@@ -25,6 +25,14 @@
 <link rel="stylesheet" href="style.css">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Poppins:wght@400;600&family=Noto+Sans+JP:wght@400;500&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+<style>
+@font-face {
+  font-family: 'PixelMplus10 Regular';
+  src: url('https://cdn.leafscape.be/PixelMplus/PixelMplus10-Regular_web.woff2') format('woff2');
+}
+</style>
 </head>
 
 <body>
@@ -91,7 +99,7 @@
 </section>
 
 <section id="games">
-  <h2>Games</h2>
+  <h2>Game Assets</h2>
 
   <div class="grid">
 
@@ -133,45 +141,291 @@
   </div>
 </section>
 
-<section id="games">
-  <h2>Games</h2>
+<section id="pixel-art">
+  <h2>Pixel Art</h2>
 
-  <div class="grid">
+  <div class="pixel-grid">
 
-    <div class="card">
-      <img src="images/pixel_art/Freelancerx5.png" alt="Kiraly Freelancer pixel art">
-      <h3 class="title">Freelancer</h3>
-      <p class="desc-jp">すっぴん</p>
+    <a href="#job-warrior" class="job">
+      <img src="images/pixel_art/Warrior.png" alt="Kiraly Warrior pixel art">
+      <p>
+        <span class="jp">せんし</span><br>
+        <span class="en">Warrior</span>
+      </p>
+    </a>
+    <div id="job-warrior" class="modal">
+      <a href="#pixel-art" class="modal-bg"></a>
+      <div class="modal-content">
+        <p class="title">
+        <span class="jp">せんし</span><br>
+        <span class="en">Warrior</span>
+        </p>
+        <img src="images/pixel_art/Warrior.png" alt="Kiraly Warrior pixel art">
+        <p>
+          <span class="jp">きょうれつな　いちげきを　たたきこむ！</span><br>
+          <span class="en">Unleash a powerful strike!</span>
+        </p>
+        <p>
+          <span class="jp">とくいぶき　おの</span><br>
+          <span class="en">Weapon: Axe</span>
+        </p>
+        <p>
+          <span class="jp">アビリティ　ほえる</span><br>
+          <span class="en">Ability: Roar </span>
+        </p>
+        <a href="#music">関連BGMを見る</a>
+      </div>
     </div>
 
-    <div class="card">
-      <img src="images/pixel_art/Thiefx5.png" alt="Kiraly Thief pixel art">
-      <h3 class="title">Thief</h3>
-      <p class="desc-jp">シーフ</p>
+    <a href="#job-thief" class="job">
+      <img src="images/pixel_art/Thief.png" alt="Kiraly Thief pixel art">
+      <p>
+        <span class="jp">シーフ</span><br>
+        <span class="en">Thief</span>
+      </p>
+    </a>
+    <div id="job-thief" class="modal">
+      <a href="#pixel-art" class="modal-bg"></a>
+      <div class="modal-content">
+        <p class="title">
+          <span class="jp">シーフ</span><br>
+          <span class="en">Thief</span>
+        </p>
+        <img src="images/pixel_art/Thief.png" alt="Kiraly Thief pixel art">
+        <p>
+          <span class="jp">すばやい　うごきと　きような　てさき！</span><br>
+          <span class="en">Move swiftly with nimble hands!</span>
+        </p>
+        <p>
+          <span class="jp">とくいぶき：ナイフ</span><br>
+          <span class="en">Weapon: Knife</span>
+        </p>
+        <p>
+          <span class="jp">アビリティ：ぬすむ</span><br>
+          <span class="en">Ability: Pickpocket</span>
+        </p>
+        <a href="#music">関連BGMを見る</a>
+      </div>
     </div>
 
-    <div class="card">
-      <img src="images/Jacket/RFRMP3.jpg" alt="Kiraly thief artwork">
-      <h3 class="title">Retro Fantasy RPG Music Pack<br>Vol.3: Winds of the Fields</h3>
-      <p class="desc-jp">レトロファンタジーＲＰＧ音楽パック<br>第３弾：野原の風</p>
-      <a href="https://kiraly-cat.itch.io" target="_blank">Play on itch.io</a>
+    <a href="#job-mage" class="job">
+      <img src="images/pixel_art/Mage.png" alt="Kiraly Mage pixel art">
+      <p>
+        <span class="jp">まじゅつし</span><br>
+        <span class="en">Mage</span>
+      </p>
+    </a>
+    <div id="job-mage" class="modal">
+      <a href="#pixel-art" class="modal-bg"></a>
+      <div class="modal-content">
+        <p class="title">
+          <span class="jp">まじゅつし</span><br>
+          <span class="en">Mage</span>
+        </p>
+        <img src="images/pixel_art/Mage.png" alt="Kiraly Mage pixel art">
+        <p>
+          <span class="jp">まほうを　べんりに　つかいこなす！</span> <br>
+          <span class="en">Master the use of magic!</span>
+        </p>
+        <p>
+          <span class="jp">ぶき：つえ</span><br>
+          <span class="en">Weapon: Staff</span>
+        </p>
+        <p>
+          <span class="jp">アビリティ：となえる</span><br>
+          <span class="en">Ability: Cast Spell</span>
+        </p>
+        <a href="#music">関連BGMを見る</a>
+      </div>
     </div>
 
-    <div class="card">
-      <img src="images/Jacket/RFRMP4.jpg" alt="Kiraly thief artwork">
-      <h3 class="title">Retro Fantasy RPG Music Pack<br>Vol.4: Battle Encounter</h3>
-      <p class="desc-jp">レトロファンタジーＲＰＧ音楽パック<br>第４弾：迫り来る戦い</p>
-      <a href="https://kiraly-cat.itch.io" target="_blank">Play on itch.io</a>
+    <a href="#job-knight" class="job">
+      <img src="images/pixel_art/knight.png" alt="Kiraly Knight pixel art">
+      <p>
+        <span class="jp">ナイト</span><br>
+        <span class="en">Knight</span>
+      </p>
+    </a>
+    <div id="job-knight" class="modal">
+      <a href="#pixel-art" class="modal-bg"></a>
+      <div class="modal-content">
+        <p class="title">
+          <span class="jp">ナイト</span><br>
+          <span class="en">Knight</span>
+        </p>
+        <img src="images/pixel_art/knight.png" alt="Kiraly Knight pixel art">
+        <p>
+          <span class="jp">かたい　まもりで　やおもてに　たつ！</span><br>
+          <span class="en">Stand firm with unbreakable defense!</span>
+        </p>
+        <p>
+          <span class="jp">ぶき：けん</span><br>
+          <span class="en">Weapon: Sword</span>
+        </p>
+        <p>
+          <span class="jp">アビリティ：まもる</span><br>
+          <span class="en">Ability: Protect</span>
+        </p>
+        <a href="#music">関連BGMを見る</a>
+      </div>
     </div>
 
-    <div class="card">
-      <img src="images/Jacket/RFRMP5.jpg" alt="Kiraly thief artwork">
-      <h3 class="title">Retro Fantasy RPG Music Pack<br>Vol.5: Rise of the Hero</h3>
-      <p class="desc-jp">レトロファンタジーＲＰＧ音楽パック<br>第５弾：英雄の目覚め</p>
-      <a href="https://kiraly-cat.itch.io" target="_blank">Play on itch.io</a>
+    <a href="#job-freelancer" class="job freelancer">
+      <img src="images/pixel_art/Freelancer.png" alt="Kiraly Freelancer pixel art">
+      <p>
+        <span class="jp">すっぴん</span><br>
+        <span class="en">Freelancer</span>
+      </p>
+    </a>
+    <div id="job-freelancer" class="modal">
+      <a href="#pixel-art" class="modal-bg"></a>
+      <div class="modal-content">
+        <p class="title">
+          <span class="jp">すっぴん</span><br>
+          <span class="en">Freelancer</span>
+        </p>
+        <img src="images/pixel_art/Freelancer.png" alt="Kiraly Freelancer pixel art">
+        <p>
+          <span class="jp">いつもの　じぶん！</span><br>
+          <span class="en">Fight as you are!</span>
+        </p>
+        <p>
+          <span class="jp">ぶき：なんでも</span><br>
+          <span class="en">Weapon: Any</span>
+        </p>
+        <p>
+          <span class="jp">アビリティ：がまん</span><br>
+          <span class="en">Ability: Endure</span>
+        </p>
+        <a href="#music">関連BGMを見る</a>
+      </div>
     </div>
 
+    <a href="#job-ranger" class="job">
+      <img src="images/pixel_art/Ranger.png" alt="Kiraly Ranger pixel art">
+      <p>
+        <span class="jp">かりゅうど</span><br>
+        <span class="en">Ranger</span>
+      </p>
+    </a>
+    <div id="job-ranger" class="modal">
+      <a href="#pixel-art" class="modal-bg"></a>
+      <div class="modal-content">
+        <p class="title">
+          <span class="jp">かりゅうど</span><br>
+          <span class="en">Ranger</span>
+        </p>
+        <img src="images/pixel_art/Ranger.png" alt="Kiraly Ranger pixel art">
+        <p>
+          <span class="jp">ゆみで　えものを　ねらいうつ！</span><br>
+          <span class="en">Take aim and strike your target!</span>
+        </p>
+        <p>
+          <span class="jp">ぶき：ゆみ</span><br>
+          <span class="en">Weapon: Bow</span>
+        </p>
+        <p>
+          <span class="jp">アビリティ：ねらう</span><br>
+          <span class="en">Ability: Aim</span>
+        </p>
+        <a href="#music">関連BGMを見る</a>
+      </div>
+    </div>
+
+    <a href="#job-dancer" class="job">
+      <img src="images/pixel_art/Dancer.png" alt="Kiraly Dancer pixel art">
+      <p>
+        <span class="jp">おどりこ</span><br>
+        <span class="en">Dancer</span>
+      </p>
+    </a>
+    <div id="job-dancer" class="modal">
+      <a href="#pixel-art" class="modal-bg"></a>
+      <div class="modal-content">
+        <p class="title">
+          <span class="jp">おどりこ</span><br>
+          <span class="en">Dancer</span>
+        </p>
+        <img src="images/pixel_art/Dancer.png" alt="Kiraly Dancer pixel art">
+        <p>
+          <span class="jp">とくいの　おどりで　もりあげる！</span><br>
+          <span class="en">Lift spirits with graceful dance!</span>
+        </p>
+        <p>
+          <span class="jp">ぶき：わんとう</span><br>
+          <span class="en">Weapon: Scimitar</span>
+        </p>
+        <p>
+          <span class="jp">アビリティ：おどる</span><br>
+          <span class="en">Ability: Dance</span>
+        </p>
+        <a href="#music">関連BGMを見る</a>
+      </div>
+    </div>
+
+    <a href="#job-dragoon" class="job">
+      <img src="images/pixel_art/dragoon_sample.png" alt="Kiraly Dragoon pixel art">
+      <p>
+        <span class="jp">りゅうきし</span><br>
+        <span class="en">Dragoon</span>
+      </p>
+    </a>
+    <div id="job-dragoon" class="modal">
+      <a href="#pixel-art" class="modal-bg"></a>
+      <div class="modal-content">
+        <p class="title">
+          <span class="jp">りゅうきし</span><br>
+          <span class="en">Dragoon</span>
+        </p>
+        <img src="images/pixel_art/dragoon_sample.png" alt="Kiraly Dragoon pixel art">
+        <p>
+          <span class="jp">たかい　そらへと　ひるがえる！</span><br>
+          <span class="en">Leap high into the sky!</span>
+        </p>
+        <p>
+          <span class="jp">ぶき：やり</span><br>
+          <span class="en">Weapon: Spear</span>
+        </p>
+        <p>
+          <span class="jp">アビリティ：ジャンプ</span><br>
+          <span class="en">Ability: Jump</span>
+        </p>
+        <a href="#music">関連BGMを見る</a>
+      </div>
+    </div>
+
+    <a href="#job-bard" class="job">
+      <img src="images/pixel_art/Bard.png" alt="Kiraly Bard pixel art">
+      <p>
+        <span class="jp">ぎんゆうしじん</span><br>
+        <span class="en">Bard</span>
+      </p>
+    </a>
+    <div id="job-bard" class="modal">
+      <a href="#pixel-art" class="modal-bg"></a>
+      <div class="modal-content">
+        <p class="title">
+          <span class="jp">ぎんゆうしじん</span><br>
+          <span class="en">Bard</span>
+        </p>
+        <img src="images/pixel_art/Bard.png" alt="Kiraly Bard pixel art">
+        <p>
+          <span class="jp">おんがくの　ちからで　みんなハッピー！</span><br>
+          <span class="en">Bring joy with the power of music!</span>
+        </p>
+        <p>
+          <span class="jp">ぶき：がっき</span><br>
+          <span class="en">Weapon: Instrument</span>
+        </p>
+        <p>
+          <span class="jp">アビリティ：かなでる</span><br>
+          <span class="en">Ability: Play Music</span>
+        </p>
+        <a href="#music">関連BGMを見る</a>
+      </div>
+    </div>
   </div>
+
 </section>
 
 <section id="about">
